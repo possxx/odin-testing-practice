@@ -1,4 +1,4 @@
-import reverseString from "./reverseString.js";
+import reverseString from "../reverseString.js";
 
 test("handles special characters", () => {
   expect(reverseString('"§ß23ß09ß234#')).toBe('#432ß90ß32ß§"');

@@ -1,4 +1,4 @@
-import capitalize from "./capitalize.js";
+import capitalize from "../capitalize.js";
 
 test("handles strings with spaces", () => {
   expect(capitalize(" sup")).toBe(" sup");
